@@ -12,5 +12,4 @@ export default defineConfig({
     }
   },
   base: process.env.NODE_ENV === "production" ? "/mador-present/" : "/",
-  // base: "/mador-rivon/",
 })

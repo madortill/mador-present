@@ -19,18 +19,18 @@ export default {
   data() {
     return {
       fieldData: [
-        { id: "social", title: "סושיאל", src: "public/general/social.svg" },
-        { id: "mop", title: "לומדות", src: "public/general/mop.svg" },
+        { id: "social", title: "סושיאל", src: "/general/social.svg" },
+        { id: "mop", title: "לומדות", src: "/general/mop.svg" },
         {
           id: "graphics",
           title: "גרפיקה",
-          src: "public/general/graphics.svg",
+          src: "/general/graphics.svg",
         },
-        { id: "images", title: "תמונות", src: "public/general/images.svg" },
+        { id: "images", title: "תמונות", src: "/general/images.svg" },
         {
           id: "videos",
           title: "סרטונים",
-          src: "public/general/videos.svg",
+          src: "/general/videos.svg",
         },
       ],
     };
