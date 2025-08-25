@@ -28,7 +28,7 @@ export default {
           text: "מפקדה, הסבר הסבר הסבר הסבר",
           src: "",
         },
-        { id: "arrestDocuments", title: "חחע", text: "", src: "" },
+        { id: "arrestDocuments", title: "", text: "", src: "" },
         { id: "aguranim", title: "", text: "", src: "" },
       ],
     };
