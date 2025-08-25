@@ -10,7 +10,7 @@
       <about v-if="page == 'main'"></about>
       <img v-if="page !== 'main'" @click="toMain" class="back-btn" src="/src/assets/general/back-btn.svg" alt="back-btn">
       <p class="main-title">{{ title }}</p>
-      <p class="second-title" v-if="page == 'main'">רבעון ג 2025</p>
+      <p class="second-title" v-if="page == 'main'">שנת 2025</p>
     </div>
     <div class="main-content">
       <p v-if="page !== 'main'" class="explain">{{ text }}</p>
@@ -18,7 +18,7 @@
       <mop v-if="page == 'mop'"></mop>
     </div>
   </div>
-  
+
 </template>
 
 <script>
@@ -46,11 +46,11 @@ export default {
         },
         mop: {
           title: 'תחום מו"פ',
-          text: 'מפתחות הלומדה פיתחו והשיקו מספר לומדות לבה”דים ברבעון האחרון'
+          text: 'מפתחות הלומדה פיתחו והשיקו מספר לומדות לבה”דים בשנה האחרונה'
         },
         graphics: {
           title: "תחום גרפיקה",
-          text: "ברבעון האחרון עבדנו על מספר רב של גרפיקות כאן מוצגות חלקן"
+          text: "בשנה האחרונה עבדנו על מספר רב של גרפיקות כאן מוצגות חלקן"
         },
         images: {
           title: "תחום וידאו - תמונות",
@@ -58,7 +58,7 @@ export default {
         },
         videos: {
           title: "תחום וידאו",
-          text: "מוזמנים לצפות בסרטונים עליהם עבדנו ברבעון האחרון"
+          text: "מוזמנים לצפות בסרטונים עליהם עבדנו בשנה האחרונה"
         }
       }
     };
@@ -159,6 +159,7 @@ html {
   background-color: #0e5648;
   font-size: 2.5rem;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .back-btn:hover {

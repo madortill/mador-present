@@ -4,9 +4,9 @@
     <Transition name="fade">
       <div v-show="showAbout" class="div-about">
         <h3 class="list-text-about">מפתחת ראשית:</h3>
-        <p class="list-text-about">טוראי גילי נחום</p>
-        <h3 class="list-text-about">גרפיקה:</h3>
-        <p class="list-text-about"></p>
+        <p class="list-text-about">רב"ט גילי נחום</p>
+        <h3 class="list-text-about">עיצוב האתר:</h3>
+        <p class="list-text-about">רב"ט גילי נחום</p>
         <h3 class="list-text-about">רמ"ד טי"ל:</h3>
         <p class="list-text-about">רס"מ עדן בן חמו</p>
         <h3 class="list-text-about">גרסה:</h3>
