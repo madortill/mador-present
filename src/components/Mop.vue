@@ -6,6 +6,7 @@
       :id="lomda.id"
       class="lomda-card"
     >
+    
       <img :src="lomda.src" :alt="lomda.id" class="lomda-img" :id="lomda.id" />
       <p class="lomda-title">{{ lomda.title }}</p>
       <p class="lomda-text">{{ lomda.text }}</p>
