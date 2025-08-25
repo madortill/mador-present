@@ -18,6 +18,7 @@
       <mop v-if="page == 'mop'"></mop>
     </div>
   </div>
+  
 </template>
 
 <script>
