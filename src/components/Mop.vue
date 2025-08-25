@@ -33,7 +33,13 @@ export default {
       ],
     };
   },
-  methods: {},
+  methods: {
+    getCloudImage(num) {
+      // Determine the base URL (for local and production)
+      const basePath = process.env.NODE_ENV === "production" ? "/LomdatCranes/" : "/";
+      return `${basePath}media/clouds/cloud${num}.png`;  // Static path to the images in the public folder
+    }
+  },
 };
 </script>
 
