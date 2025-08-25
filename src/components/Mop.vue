@@ -6,7 +6,7 @@
       :id="lomda.id"
       class="lomda-card"
     >
-    
+
       <img :src="lomda.src" :alt="lomda.id" class="lomda-img" :id="lomda.id" />
       <p class="lomda-title">{{ lomda.title }}</p>
       <p class="lomda-text">{{ lomda.text }}</p>
@@ -28,7 +28,7 @@ export default {
           text: "מפקדה, הסבר הסבר הסבר הסבר",
           src: "",
         },
-        { id: "arrestDocuments", title: "", text: "", src: "" },
+        { id: "arrestDocuments", title: "חחע", text: "", src: "" },
         { id: "aguranim", title: "", text: "", src: "" },
       ],
     };
