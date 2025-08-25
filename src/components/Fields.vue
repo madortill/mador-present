@@ -24,7 +24,7 @@ export default {
         {
           id: "graphics",
           title: "גרפיקה",
-          src: "/general/graphics.svg",
+          src: "./general/graphics.svg",
         },
         { id: "images", title: "תמונות", src: "./general/images.svg" },
         {
